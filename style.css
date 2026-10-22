@@ -1,0 +1,60 @@
+:root {
+    --azul-500: #31419c;
+    --azul-400: #5e73d3;
+    --azul-300: #7499e4;
+    --azul-200: #94ccf2;
+    --azul-100: #b5eefc;
+
+    --rosa-500: rgb(177, 49, 89);
+    --rosa-400: rgb(206, 70, 134);
+    --rosa-300: rgb(223, 100, 186);
+    --rosa-200: rgb(242, 132, 222);
+    --rosa-100: rgb(248, 158, 249);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 0.01rem solid;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#carrosel{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
